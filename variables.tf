@@ -12,6 +12,11 @@ variable "has_projects" {
   default = false
 }
 
+variable "has_wiki" {
+  type    = bool
+  default = false
+}
+
 variable "repo_type" {
   type = string
   validation {
